@@ -129,6 +129,20 @@ const names = [
     }
     return results;
   };
+
+  const getUserFriends = (int) => {
+    if (int === 1) {
+      return getRandomArrItem(names);
+    }
+    const results = [];
+    for (let i = 0; i < int; i++){
+      results.push({
+        tagBody: getRandomArrItem(names),
+        thoughts: getRandomThoughts(),
+      });
+    }
+    return results;
+  };
   
   // Create the reactions that will be added to each thought
   const getThoughtReactions = (int) => {

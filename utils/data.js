@@ -67,6 +67,19 @@ const names = [
     'Nathaniel',
     'Parker',
   ];
+
+  const emails = [
+    'test1@test.com',
+    'test2@test.com',
+    'test3@test.com',
+    'test4@test.com',
+    'test5@test.com',
+    'test6@test.com',
+    'test7@test.com',
+    'test8@test.com',
+    'test9@test.com',
+    'test10@test.com',
+  ];
   
   const ThoughtDescriptions = [
     'Decision Tracker',
@@ -114,7 +127,12 @@ const names = [
   
   // Gets a random full name
   const getRandomName = () =>
-    `${getRandomArrItem(names)} ${getRandomArrItem(names)}`;
+    //`${getRandomArrItem(names)} ${getRandomArrItem(names)}`;
+    `${getRandomArrItem(names)}`;
+
+    const getRandomEmail = () =>
+    //`${getRandomArrItem(names)} ${getRandomArrItem(names)}`;
+    `${getRandomArrItem(emails)}`;
   
   // Function to generate random thoughts that we can add to the database. Includes thought reactions.
   const getRandomThoughts = (int) => {
@@ -160,5 +178,5 @@ const names = [
   };
   
   // Export the functions for use in seed.js
-  module.exports = { getRandomName, getRandomThoughts };
+  module.exports = { getRandomName, getRandomEmail, getRandomThoughts };
   

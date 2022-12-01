@@ -47,3 +47,4 @@ Screenshots:
 ![Image](./Assets/RemoveThought_Delete.jpg)
 ![Image](./Assets/AddReactiontoThought_Post.jpg)
 ![Image](./Assets/RemoveReactionfromThought_Delete.jpg)
+![Image](./Assets//New_user_with_name_%26_email.jpg)
